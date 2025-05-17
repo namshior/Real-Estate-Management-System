@@ -1,0 +1,84 @@
+.add-property-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(240, 242, 245, 0.8); /* Fallback color */
+    background-image: url('https://cdn.vectorstock.com/i/1000v/01/92/real-estate-background-for-sale-property-concept-vector-3640192.avif');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    position: fixed; /* Keeps the form fixed on the screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  
+    .form-wid {
+      max-width: 90%;
+      width: 500px; /* Smaller width for the form */
+      max-height: 80vh; /* Limit the height of the form */
+      overflow-y: auto; /* Enable scrolling within the form */
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+      border: 1px solid rgba(0, 0, 0, 0.1); /* Light border to define edges */
+    }
+  
+    .title {
+      font-size: 24px;
+      text-decoration: double;
+      color: rgb(21, 67, 165);
+      text-align: center; /* Center the title */
+      margin-bottom: 20px;
+    }
+  
+    .ant-form-item-label {
+      text-align: left;
+      padding-right: 20px; /* Reduced padding */
+      font-size: 14px; /* Smaller font size */
+    }
+  
+    .ant-form-item {
+      margin-bottom: 16px; /* Reduced margin between items */
+    }
+  
+    .ant-input,
+    .ant-input-number,
+    .ant-select-selector,
+    .ant-picker {
+      width: 100%;
+      height: 32px; /* Smaller height for input boxes */
+      font-size: 14px; /* Smaller font size */
+      border-radius: 4px; /* Slightly rounded corners */
+    }
+  
+    .ant-textarea {
+      font-size: 14px; /* Smaller font size */
+    }
+  
+    .ant-btn {
+      margin: 0 8px;
+      height: 32px; /* Smaller button height */
+      font-size: 14px; /* Smaller font size */
+      padding: 0 16px;
+    }
+  
+    .center-button {
+      text-align: center;
+    }
+  
+    .sub {
+      margin-left: 8px;
+      font-size: 14px; /* Smaller font size for buttons */
+      padding: 5px 10px; /* Smaller padding for buttons */
+    }
+  
+    /* Add responsive design adjustments if needed */
+    @media (max-width: 768px) {
+      .form-wid {
+        width: 100%; /* Make form width 100% on smaller screens */
+      }
+    }
+  }
+  

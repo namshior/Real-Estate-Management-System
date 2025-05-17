@@ -1,0 +1,82 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #444;
+}
+
+.agent-navbar {
+    background-color: #f0f2f5; /* Set the background color if needed */
+    color: #001529;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Use space-between to position items on opposite sides */
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.agent-welcome-message {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #001529;
+}
+
+
+.logout-button:hover {
+    background-color: #ff7875; /* Slightly lighter red on hover */
+}
+
+
+.content {
+    padding: 1em;
+}
+
+.content h2 {
+    color: #333;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+
+.mark-as-completed-button{
+    background-color: #28a745;
+}
+
+.mark-as-completed-button:hover {
+    opacity: 0.9;
+}

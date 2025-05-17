@@ -1,0 +1,55 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2f7aea;
+  background-image: url('https://www.kundans.com/wp-content/uploads/2023/02/property-purchasing-1024x640.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 24px;
+  text-decoration: double;
+  color: rgb(21, 67, 165);
+  margin-bottom: 1rem;
+}
+
+.user {
+  font-size: 24px;
+  text-decoration: double;
+  margin-bottom: 1rem;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 2rem;
+
+  .ant-form-item {
+    margin-bottom: 1rem;
+  }
+
+  .ant-input,
+  .ant-input-password {
+    height: 40px;
+  }
+
+  .op {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+
+    .ant-radio-group {
+      display: flex;
+      gap: 0.1rem; // Adjust gap as needed
+    }
+  }
+}

@@ -1,0 +1,100 @@
+.client-main-container {
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.client-main-container h1 {
+    margin-bottom: 20px;
+}
+
+.client-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.client-navbar {
+    background-color: #001529;
+    color: #f0f2f5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.welcome-message {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #f0f2f5;
+}
+
+.logout-button {
+    position: absolute;
+    right: 20px;
+    /* Positions the button on the top right */
+    top: 20px;
+}
+
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+.price-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-container .ant-input,
+.filter-container .ant-select-selector,
+.filter-container .ant-input-number,
+.filter-container .ant-btn-primary {
+    border-color: #001529;
+}
+
+.filter-container .ant-input:focus,
+.filter-container .ant-select-focused .ant-select-selector,
+.filter-container .ant-input-number-focused,
+.filter-container .ant-btn-primary:focus {
+    border-color: #001529 !important;
+    box-shadow: 0 0 0 2px rgba(0, 21, 41, 0.2);
+    /* Adjust shadow to match the color */
+}
+
+.filter-container .ant-input::placeholder {
+    color: #001529;
+    opacity: 0.6;/
+}
+
+.filter-container .ant-select-selection-placeholder {
+    color: #001529;
+    opacity: 0.6;
+}
+
+.filter-container .ant-input-number-input::placeholder {
+    color: #001529;
+    opacity: 0.6;
+}
+
+.client-navbar a {
+    color: #001529;
+    padding: 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+h4 {
+    font-size: larger;
+    font-weight: bold;
+}

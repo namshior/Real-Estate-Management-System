@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .header {
+    width: 100%;
+    background-color: #fff; /* Navbar color changed to white */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    color: #f5f5f5;
+    background-color: #f5f5f5;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero-section {
+    background-image: url('https://bestinau.com.au/wp-content/uploads/2018/12/5-best-property-management-companies-in-Melbourne.jpg'); /* Updated background image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .join-button {
+    background-color: #ff4c4c;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .buy-property-button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .about-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .about-us-image {
+    flex: 1.5; /* Increased size by about 50% */
+    position: relative;
+  }
+  
+  .about-us-image img {
+    /* width: 100%;
+    height: auto; */
+    margin-top: 5%;
+    
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        max-width: 1600px; /* Set maximum width */
+        max-height: 900px; /* Set maximum height */
+      
+      
+  }
+  
+  .about-us-content {
+    flex: 1;
+    background-color: #fff;
+    padding: 30px;
+    margin-left: -100px; /* Adjust this to overlap the image */
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-us-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .read-more-button {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .read-more-button:hover {
+    background-color: #e6b800;
+  }
+
+  /* test.css */
+
+.contact-form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 500px; /* Medium size */
+  width: 100%;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.social-media li {
+  display: inline;
+}
+
+.social-media li a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-media li a:hover {
+  color: #ccc;
+}
+/* Navbar Styles */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: blue;
+}
+
+/* Login Button */
+.login-button {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.login-button:hover {
+  color: blue;
+  border-color: blue;
+}
+
+  

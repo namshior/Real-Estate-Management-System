@@ -1,0 +1,67 @@
+.form-container {
+    width: 50%;
+    max-width: 600px;
+    height: 50%;
+    max-height: 600px;
+    margin: auto;
+    border-width: 100px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px blue;
+}
+
+h1 {
+    color: blue;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    width: none;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.button-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 0.25em;
+}
+
+.success {
+    color: green;
+    font-size: 0.875em;
+    margin-top: 0.25em;
+}
